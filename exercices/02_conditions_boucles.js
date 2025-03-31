@@ -30,42 +30,18 @@
  */
 
 // Votre code commence ici
-for (let i = 0; i <= 100; i++) {
-  let nombre = i;
-  function estPair(nombre) {
-    return nombre % 2 === 0;
-  }
-
-  function tableMultiplication(nombre) {
-    for (let i = 1; i <= 10; i++) {
-      return nombre * i;
-    }
-  }
-
-  function fizzBuzz(nombre) {
-    if (nombre % 3 === 0) {
-      return "Fizz";
-    } else if (nombre % 5 === 0) {
-      return "buzz";
-    } else if (nombre % 3 === 0 && nombre % 5 === 0) {
-      return "FizzBuzz";
-    } else {
-      return nombre;
-    }
-  }
-}
 
 // Tests pour estPair()
-console.log("7 est pair ? " + estPair(7));
-console.log("12 est pair ? " + estPair(12));
-console.log("20 est pair ? " + estPair(20));
+console.log("7 est pair ? ");
+console.log("12 est pair ? ");
+console.log("20 est pair ? ");
 
 // Test pour tableMultiplication()
-console.log("\nTable de multiplication de 7 : " + tableMultiplication(7));
+console.log("\nTable de multiplication de 7 : ");
 /* appel à tableMultiplication avec 7 */
 
 // Tests pour fizzBuzz()
-console.log("\nFizzBuzz pour 9 : " + fizzBuzz(9));
-console.log("FizzBuzz pour 10 : " + fizzBuzz(10));
-console.log("FizzBuzz pour 15 : " + fizzBuzz(15));
-console.log("FizzBuzz pour 17 : " + fizzBuzz(17));
+console.log("\nFizzBuzz pour 9 : ");
+console.log("FizzBuzz pour 10 : ");
+console.log("FizzBuzz pour 15 : ");
+console.log("FizzBuzz pour 17 : ");

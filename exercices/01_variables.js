@@ -21,11 +21,6 @@
  */
 
 // Votre code commence ici
-let nom = "Jean";
-let age = 25;
-let anneeNaissance = 2025 - age;
-let presentation = `Je m'appelle ${nom} et j'ai ${age} ans.`;
-let futur = age + 5;
 
 // Affichage des résultats
 console.log("Nom :", nom);
